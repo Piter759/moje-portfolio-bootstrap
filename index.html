@@ -2,18 +2,24 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Moje portfolio</title>
     
+    <title>Moje portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/responsivee.css">
 </head>
 <body>
-       <nav id="navig">
+      <div class="container-fluid">
+          
+          <div class="row">
+              
+              <nav id="navig">
                
-               <label for="drop" class="toggle">Menu</label>
+               <label for="drop" class="toggle"></label>
                <input type="checkbox" id="drop">
                
                 <ul id="lista-menu">
@@ -30,16 +36,40 @@
            </div>
         </header>
         
-        <section id="about">
+              
+          </div>
+          
+      </div>
+      
+       
+    <section id="about">
+               
+                   
+                   
            <h2 class="header-h2">O <span class="span">mnie</span></h2>
-            <figure>
-                <img src="img/jan-nowak.jpg" alt="">
-            </figure>
-            <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat. Cumque ipsum eveniet, cum ab repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat. Cumque ipsum eveniet, cum ab repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat.</p>
-            </article>
-            <div class="clear"></div>
-        </section>
+           
+           <div class="container">
+               <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <figure>
+                            <img src="img/jan-nowak.jpg" alt="">
+                        </figure>
+                    </div>
+                <div class="col-xs-12 col-sm-6">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat. Cumque ipsum eveniet, cum ab repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat. Cumque ipsum eveniet, cum ab repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem natus et dicta iusto, totam aliquid amet nulla nostrum consectetur ipsam voluptate repellendus deleniti placeat.</p>
+                    </article>
+                <div class="clear"></div>
+            </div>
+        </div>
+           
+       </div>
+       
+               
+    </section>
+               
+        
+        
         
         <section id="skills">
             <h2 class="header-h2">Moje <span class="span">umiejętności</span></h2>
@@ -48,70 +78,97 @@
             
             <section id="logos">
                
-                <figure class="disp-inline">
-                    <img src="icons/html5.png" alt="Logo - HTML5">
-                    <figcaption>HTML 5</figcaption>
-                </figure>
-                    
-                <figure class="disp-inline">
-                    <img src="icons/css3.png" alt="Logo - CSS3">
-                    <figcaption>CSS 3</figcaption>
-                </figure>
-                
-                <figure class="disp-inline">
-                    <img src="icons/js.png" alt="Logo - JS">
-                    <figcaption>JavaScript</figcaption>
-                </figure>
-                    
-                <figure class="disp-inline">
-                    <img src="icons/jquery.png" alt="Logo - jQuery">
-                    <figcaption>jQuery</figcaption>
-                </figure>
-      
+               <div class="container skills-cont">
+                  <div class="row">
+                      <div class="col-sm-3">
+                          <figure class="disp-inline">
+                                <img src="icons/html5.png" alt="Logo - HTML5">
+                                <figcaption>HTML 5</figcaption>
+                          </figure>
+                      </div>
+     
+                      <div class="col-sm-3">
+                           <figure class="disp-inline">
+                                <img src="icons/css3.png" alt="Logo - CSS3">
+                                <figcaption>CSS 3</figcaption>
+                           </figure>
+                      </div>
+         
+                      <div class="col-sm-3">
+                          <figure class="disp-inline">
+                              <img src="icons/js.png" alt="Logo - JS">
+                              <figcaption>JavaScript</figcaption>
+                          </figure>
+                      </div>
+                              
+                      <div class="col-sm-3">
+                          <figure class="disp-inline">
+                            <img src="icons/jquery.png" alt="Logo - jQuery">
+                            <figcaption>jQuery</figcaption>
+                          </figure>
+                      </div>
+                  </div>
+                </div>            
+    
             </section>
         </section>
         
-        <section id="portfolio">
-               <h2 class="header-h2" id="ident-header-h2">Moje <span class="span">portfolio</span></h2>
-                <div id="portfolio-items">
+        
+        
+<section id="portfolio">
+    <h2 class="header-h2" id="ident-header-h2">Moje <span class="span">portfolio</span></h2>
+    <div id="portfolio-items">
+
+        <div class="conatainer-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 without-padding">
                     <div class="portfolio-item" id="portfolio-item-1">
-                       <div class="portfolio-item-mask">
-                           <div class="portfolio-item-mask-border">
-                               <div class="portfolio-item-content">
-                                   <h2>Bla bla bla</h2>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
-                                   <i class="fa fa-link fa-lg" aria-hidden="true"></i>
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-                
-                    <div class="portfolio-item"  id="portfolio-item-2">
-                       <div class="portfolio-item-mask">
-                           <div class="portfolio-item-mask-border">
-                               <div class="portfolio-item-content">
-                                   <h2>Bla bla bla</h2>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
-                                   <i class="fa fa-link fa-lg" aria-hidden="true"></i>
-                               </div>
-                           </div>
-                        </div>
-                    </div>
-             
-                    <div class="portfolio-item"  id="portfolio-item-3">
-                       <div class="portfolio-item-mask">
-                           <div class="portfolio-item-mask-border">
-                               <div class="portfolio-item-content">
-                                   <h2>Bla bla bla</h2>
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
-                                   <i class="fa fa-link fa-lg" aria-hidden="true"></i>
-                               </div>
-                           </div>
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-mask-border">
+                                <div class="portfolio-item-content">
+                                    <h2>Bla bla bla</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
+                                    <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-          
-        </section>
+
+                <div class="col-sm-6 col-md-4 without-padding">
+                    <div class="portfolio-item" id="portfolio-item-2">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-mask-border">
+                                <div class="portfolio-item-content">
+                                    <h2>Bla bla bla</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
+                                    <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 without-padding">
+                    <div class="portfolio-item" id="portfolio-item-3">
+                        <div class="portfolio-item-mask">
+                            <div class="portfolio-item-mask-border">
+                                <div class="portfolio-item-content">
+                                    <h2>Bla bla bla</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos magnam quibusdam.</p>
+                                    <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
                <!--
                 <div id="container">
                     
@@ -157,32 +214,44 @@
             </div>-->
   <!-------------------------------------------------------------------------------MG-->
      
-     <section id="contact">
-         <div class="contact-data">
-             <h2>Piotr <span>Piechnik</span></h2>
-             <address>
+     
+     
+     
+<section id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="contact-data">
+                    <h2>Piotr <span>Piechnik</span></h2>
+                    <address>
                  ul. Mostowa 6/13<br>
                  31-061 Kraków<br>
                  tel: 606 74 57 90<br>
                  e-mail: <a href="mailto: twojmail@provider.com">twojmail@provider.com</a>
              </address>
-             <div class="social-media">
-                 <a href=""><i class="fa fa-facebook"></i></a>
-                 <a href=""><i class="fa fa-google-plus"></i></a>
-                 <a href=""><i class="fa fa-twitter"></i></a>
-                 <a href=""><i class="fa fa-linkedin"></i></a>
-             </div>
-         </div>
-         <div class="contact-form">
-             <form action="">
-                 <input type="text" placeholder="Imię i nazwisko">
-                 <input type="email" placeholder="Adres e-mail">
-                 <textarea name="message" placeholder="Wiadomość"></textarea>
-                 <input type="submit" value="wyślij">
-             </form>
-         </div>
-         <div class="clear"></div>
-     </section>
+                    <div class="social-media">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="contact-form">
+                    <form id="form-kontakt" action="">
+                        <input type="text" placeholder="Imię i nazwisko">
+                        <input type="email" placeholder="Adres e-mail">
+                        <textarea name="message" placeholder="Wiadomość"></textarea>
+                        <input type="submit" value="wyślij">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</section>
       
       
        
@@ -204,5 +273,8 @@
         <footer>
             <p>Copyright &copy; Piotr Piechnik</p>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
 </body>
 </html>

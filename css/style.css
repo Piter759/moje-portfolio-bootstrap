@@ -1,10 +1,16 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
 /* klasa pomocnicza */
 .clear {
     clear: both;
+}
+
+.container {
+    margin: 0;
+    
 }
 
 header {
@@ -90,13 +96,14 @@ header #main-header h2 {
 }
 /* o mnie */
 #about {
-    padding: 50px 20px;
+    padding: 30px 20px 50px 20px;
     box-sizing: border-box;
     background-color: #F9FCFE;
     box-shadow: 0 1px 15px #888888;
 }
 
 #about h2 {
+    padding-top: 0;
     text-align: center;
     font-weight: 300;
     font-family: 'Lato';
@@ -111,7 +118,7 @@ header #main-header h2 {
 #about figure,
 #about article {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     float: left;
 }
 
@@ -121,7 +128,7 @@ header #main-header h2 {
 }
 
 #about figure img {
-    width: 45%;
+    width: 60%;
     border-radius: 16px;
     border: 15px solid white;
 }
@@ -136,7 +143,7 @@ header #main-header h2 {
 }    
 
 #skills {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #skills h2 {
@@ -174,10 +181,11 @@ figcaption {
 
 #logos {
     text-align: center;
-    margin-top: 30px;
+    
 }
 
 .disp-inline {
+    margin: 50px 20px 0 20px;
     display: inline-block;
 }
 /*
@@ -230,7 +238,7 @@ figcaption {
 }
 
 #ident-header-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #portfolio-items {
@@ -239,7 +247,7 @@ figcaption {
 
 .portfolio-item {
     display: inline-block;
-    width: 33.333%;
+    width: 100%;
     margin: 0;
     height: 350px;
     position: relative;
@@ -332,7 +340,7 @@ figcaption {
     border: 1px solid #FFF;
     text-align: center;
     line-height: 38px;
-    margin-right: 5px;
+    margin: 5px 5px;
 }
 
 #contact .contact-data .social-media a:hover {
@@ -342,9 +350,13 @@ figcaption {
 }
 
 #contact .contact-form {
-    width: 50%;
+    width: 100%;
     float: left;
     margin-top: 100px;
+}
+
+#form-kontakt {
+    width: 100%;
 }
 
 #contact .contact-form form input,
@@ -377,68 +389,6 @@ figcaption {
     background-color: #FFF;
     color: #1AC056;
 }
-
-
-
-
-
-
-
-/*
-#portfolio-boxy {
-    margin-top: 50px;
-    width: 1194px;
-    height: 380px;
-    background-color: aqua;
-    margin-bottom: 100px;
-}
-
-#portfolio #portfolio-boxy #box1 {
-    float: left;
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    background-color: blueviolet;
-    height: 100%;
-    width: 398px;
-}
-
-#portfolio #portfolio-boxy #box2 {
-    float: left;
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    background-color: orangered;
-    height: 100%;
-    width: 398px;
-}
-
-#portfolio #portfolio-boxy #box3 {
-    float: left;
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    background-color: forestgreen;
-    height: 100%;
-    width: 398px;
-}
-
-
-#kontakt {
-    width: 100%;
-    height: 436px;
-    background-color: #213b50;
-}
-
-#kontakt #kontakt-h2 {
-    position: relative;
-    text-align: left;
-    color: #FFF;
-    margin: 50px 0 80px 80px;
-    font-size: 35px;
-    font-weight: 300;
-}
-*/
 
 address {
     font-style: normal;
