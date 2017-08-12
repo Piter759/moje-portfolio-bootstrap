@@ -74,6 +74,21 @@ header #main-header h2 {
     padding-top: 20px;
 }
 
+#menu-wide {
+	background-color: #e7e7e7;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    opacity: 0.5;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-weight: 600;
+}
+
 #navig {
     position: fixed;
     width: 100%;
@@ -135,7 +150,6 @@ header #main-header h2 {
 
 #about article p {
     margin-top: 0;
-    padding-right: 50px;
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 300;
