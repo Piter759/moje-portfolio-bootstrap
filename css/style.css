@@ -89,23 +89,6 @@ header #main-header h2 {
     font-weight: 600;
 }
 
-#navig {
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    z-index: 1;
-    text-align: right;
-}
-
-#navig .toogle,[id="drop"] {
-    display: none;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #fff;
-}
-
 #o-mnie {
 
 }
