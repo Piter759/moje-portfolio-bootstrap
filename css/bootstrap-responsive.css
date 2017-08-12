@@ -5,8 +5,13 @@
         width: 50%;
         left: 50%;
     }
+    
     .without-padding {
 	padding: 0;
+    }
+    
+    #menu-wide{
+        width: 100%;
     }
 }
 
